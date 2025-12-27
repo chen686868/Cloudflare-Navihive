@@ -132,7 +132,7 @@ NaviHive 是一个精美的网站导航管理系统，帮助你整理和管理�
         - `AUTH_PASSWORD`：管理员密码
         - `AUTH_SECRET`：JWT 密钥（使用随机字符串）
 5. 点击"部署"按钮
-
+部署不成功，那就返回github仓库，将wrangler.jsonc中的DB数据库的id适当修改，再次部署。
 部署完成后，您将获得一个类似`https://your-project-name.username.workers.dev`的网址，这就是您的导航站地址。
 
 6. 初始化项目数据库  
